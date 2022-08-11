@@ -20,8 +20,8 @@ const handleClick = () => {
 
   return (
     <div className="App">
-       <input type="text" id="desc" />
-       <input type="text" id="amount" />
+       <input placeholder='Description ' type="text" id="desc" />
+       <input placeholder='Amount' type="text" id="amount" />
        <button onClick={handleClick}>Add</button>
     </div>
   );
